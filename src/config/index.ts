@@ -28,7 +28,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Johan Edward",
     specialty: "Innovative developer",
     summary: "Creativity requires the courage to let go of certainties. I will help you to innovate. To dream forward.",
-    email: "johaninfozaken@protonmail.com",
+    email: "20149751@student.hhs.nl",
     image: johanPic,
   },
   experience: [
@@ -60,13 +60,6 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "ClonTagram",
       summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: randomImg,
-    },
-    {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
       image: randomImg,
