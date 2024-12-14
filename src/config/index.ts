@@ -4,7 +4,7 @@ import johanPic from "../JohanMeerLinkedinFotoEdited.png"
 import randomImg from "../spotifu.png"
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Johan Edward — Mobile & Web Developer",
+  title: "Johan Edward — Innovative Developer",
   author: "Johan Edward",
   description:
     "Innovative Developer based in Delft, always looking to innovate!",
