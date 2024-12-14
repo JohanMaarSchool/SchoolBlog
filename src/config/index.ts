@@ -42,6 +42,36 @@ export const SITE_CONTENT: SiteContent = {
       ],
     },
   ],
+  blogs: [
+    {
+      name: "Big Five Personality",
+      summary: "A music streaming app that emulates Spotify's core features.",
+      linkPreview: "/",
+      linkSource: "https://github.com/immois/astro-zen",
+      image: randomImg,
+    },
+    {
+      name: "De Kleurentest van Caluwe",
+      summary: "A music streaming app that emulates Spotify's core features.",
+      linkPreview: "/",
+      linkSource: "https://github.com/immois/astro-zen",
+      image: randomImg,
+    },
+    {
+      name: "Persoonlijk Leiderschap",
+      summary: "A music streaming app that emulates Spotify's core features.",
+      linkPreview: "/",
+      linkSource: "https://github.com/immois/astro-zen",
+      image: randomImg,
+    },
+    {
+      name: "Circle of Concern & Circle of Influence",
+      summary: "A music streaming app that emulates Spotify's core features.",
+      linkPreview: "/",
+      linkSource: "https://github.com/immois/astro-zen",
+      image: randomImg,
+    },
+  ],
   projects: [
     {
       name: "Spotifu Music",
@@ -60,22 +90,6 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "ClonTagram",
       summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: randomImg,
-    },
-  ],
-  blogs: [
-    {
-      name: "Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: randomImg,
-    },
-    {
-      name: "Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
       image: randomImg,

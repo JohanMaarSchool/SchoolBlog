@@ -6,10 +6,23 @@ import { Image } from "astro:assets";
 const { name, specialty, summary, email, image } = Astro.props;
 ---
 
-<div class="py-8 md:py-8 flex flex-row" id="#hero">
+<script>
+  import TypeIt from "typeit";
+
+  new TypeIt("#name-hero", {
+    speed: 200,
+    loop: false,
+    afterComplete: function (instance: any) {
+      instance.destroy();
+    },
+  }).go();
+</script>
+
+<div class="w-full py-8 md:py-8 flex flex-row" id="#hero">
   <div>
     <h1
       class="text-7xl font-serif mb-1.5 sm:text-8xl md:text-9xl md:mb-0 text-white font-bold tracking-tightest transition-colors hover:text-green-400 delay-200"
+      id="name-hero"
     >
       {name}
     </h1>
