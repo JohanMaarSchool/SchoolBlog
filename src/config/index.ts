@@ -1,4 +1,7 @@
 import type { SiteConfig, SiteContent } from "../types";
+import smallImage from "../smallJohan.jpeg";
+import johanPic from "../JohanMeerLinkedinFotoEdited.png"
+import randomImg from "../spotifu.png"
 
 export const SITE_CONFIG: SiteConfig = {
   title: "Johan Edward — Mobile & Web Developer",
@@ -6,7 +9,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "Innovative Developer based in Delft, always looking to innovate!",
   lang: "en",
-  siteLogo: "/smallJohan.jpeg",
+  siteLogo: smallImage,
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
@@ -17,8 +20,7 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Github", href: "https://github.com/immois/astro-zen" },
     { text: "Youtube", href: "https://github.com/immois/astro-zen" },
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: johanPic,
 };
 
 export const SITE_CONTENT: SiteContent = {
@@ -27,7 +29,7 @@ export const SITE_CONTENT: SiteContent = {
     specialty: "Innovative developer",
     summary: "Creativity requires the courage to let go of certainties. I will help you to innovate. To dream forward.",
     email: "johaninfozaken@protonmail.com",
-    image: "/JohanMeerLinkedinFotoEdited.png",
+    image: johanPic,
   },
   experience: [
     {
@@ -36,7 +38,7 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "2022",
       endDate: "2023",
       summary: [
-        "/Research & development of a custom React UI-library, and implementing it in an Angular application,",
+        "Research & development of a custom React UI-library, and implementing it in an Angular application,",
       ],
     },
   ],
@@ -46,28 +48,28 @@ export const SITE_CONTENT: SiteContent = {
       summary: "A music streaming app that emulates Spotify's core features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      image: randomImg,
     },
     {
       name: "Shopp App",
       summary: "An e-commerce platform that replicates Shopify's key features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      image: randomImg,
     },
     {
       name: "ClonTagram",
       summary: "A social network that replicates the features of Instagram",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      image: randomImg,
     },
     {
       name: "Spotifu Music",
       summary: "A music streaming app that emulates Spotify's core features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      image: randomImg,
     },
   ],
   blogs: [
@@ -76,14 +78,14 @@ export const SITE_CONTENT: SiteContent = {
       summary: "A music streaming app that emulates Spotify's core features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      image: randomImg,
     },
     {
       name: "Music",
       summary: "A music streaming app that emulates Spotify's core features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      image: randomImg,
     },
   ],
   about: {
@@ -95,7 +97,7 @@ Because only together can we build products that add real value and help others 
 
 
     `,
-    image: "/JohanMeerLinkedinFotoEdited.png",
+    image: johanPic,
   },
 };
 

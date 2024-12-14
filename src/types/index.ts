@@ -1,10 +1,12 @@
+import type { ImageMetadata } from "astro";
+
 export interface SiteConfig extends HeaderProps {
   title: string;
   description: string;
   lang: string;
   author: string;
   socialLinks: { text: string; href: string }[];
-  socialImage: string;
+  socialImage: ImageMetadata;
   canonicalURL?: string;
 }
 
@@ -21,7 +23,7 @@ export interface HeroProps {
   specialty: string;
   summary: string;
   email: string;
-  image: any
+  image: ImageMetadata
 }
 
 export interface ExperienceProps {
@@ -35,25 +37,25 @@ export interface ExperienceProps {
 export interface ProjectProps {
   name: string;
   summary: string;
-  image: string;
+  image: ImageMetadata;
   linkPreview?: string;
   linkSource?: string;
 }
 
 export interface AboutProps {
   description: string;
-  image: string;
+  image: ImageMetadata;
 }
 
 export interface HeaderProps {
-  siteLogo: string;
+  siteLogo: any;
   navLinks: { text: string; href: string }[];
 }
 
 export interface BlogProps {
   name: any;
   summary: any;
-  image: any;
+  image: ImageMetadata;
   linkPreview?: string;
   linkSource?: string;
 }
