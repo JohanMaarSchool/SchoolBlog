@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "Innovative Developer based in Delft, always looking to innovate!",
   lang: "en",
-  siteLogo: "SchoolBlog/smallJohan.jpeg",
+  siteLogo: "/smallJohan.jpeg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
@@ -17,7 +17,7 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Github", href: "https://github.com/immois/astro-zen" },
     { text: "Youtube", href: "https://github.com/immois/astro-zen" },
   ],
-  socialImage: "SchoolBlog/zen-og.png",
+  socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
 };
 
@@ -27,7 +27,7 @@ export const SITE_CONTENT: SiteContent = {
     specialty: "Innovative developer",
     summary: "Creativity requires the courage to let go of certainties. I will help you to innovate. To dream forward.",
     email: "johaninfozaken@protonmail.com",
-    image: "SchoolBlog/JohanMeerLinkedinFotoEdited.png",
+    image: "/JohanMeerLinkedinFotoEdited.png",
   },
   experience: [
     {
@@ -36,7 +36,7 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "2022",
       endDate: "2023",
       summary: [
-        "Research & development of a custom React UI-library, and implementing it in an Angular application,",
+        "/Research & development of a custom React UI-library, and implementing it in an Angular application,",
       ],
     },
   ],
@@ -46,28 +46,28 @@ export const SITE_CONTENT: SiteContent = {
       summary: "A music streaming app that emulates Spotify's core features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "SchoolBlog/spotifu.png",
+      image: "/spotifu.png",
     },
     {
       name: "Shopp App",
       summary: "An e-commerce platform that replicates Shopify's key features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "SchoolBlog/shopify-clon.png",
+      image: "/shopify-clon.png",
     },
     {
       name: "ClonTagram",
       summary: "A social network that replicates the features of Instagram",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "SchoolBlog/clone-ig.png",
+      image: "/clone-ig.png",
     },
     {
       name: "Spotifu Music",
       summary: "A music streaming app that emulates Spotify's core features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "SchoolBlog/spotifu.png",
+      image: "/spotifu.png",
     },
   ],
   blogs: [
@@ -76,14 +76,14 @@ export const SITE_CONTENT: SiteContent = {
       summary: "A music streaming app that emulates Spotify's core features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "SchoolBlog/spotifu.png",
+      image: "/spotifu.png",
     },
     {
       name: "Music",
       summary: "A music streaming app that emulates Spotify's core features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "SchoolBlog/spotifu.png",
+      image: "/spotifu.png",
     },
   ],
   about: {
@@ -95,7 +95,7 @@ Because only together can we build products that add real value and help others 
 
 
     `,
-    image: "SchoolBlog/JohanMeerLinkedinFotoEdited.png",
+    image: "/JohanMeerLinkedinFotoEdited.png",
   },
 };
 

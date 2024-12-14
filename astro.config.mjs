@@ -6,6 +6,5 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://johanmaarschool.github.io',
-  base: 'SchoolBlog',
   integrations: [tailwind()],
 });
