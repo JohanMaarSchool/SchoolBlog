@@ -1,0 +1,41 @@
+---
+import type { HeroProps } from "@types";
+type Props = HeroProps;
+import { Image } from "astro:assets";
+
+const { name, specialty, summary, email, image } = Astro.props;
+---
+
+<div class="py-8 md:py-8 flex flex-row" id="#hero">
+  <div>
+    <h1
+      class="text-7xl font-serif mb-1.5 sm:text-8xl md:text-9xl md:mb-0 text-white font-bold tracking-tightest"
+    >
+      {name}
+    </h1>
+    <p
+      class="text-4xl sm:text-5xl leading-[46px] md:text-6xl font-serif text-primary font-bold tracking-tighter mb-9"
+    >
+      {specialty}
+    </p>
+    <p class="text-neutral text-balance font-normal text-base md:text-lg mb-8">
+      {summary}
+    </p>
+
+    <a
+      class="text-sm py-5 px-8 text-[#fff] inline-block font-medium leading-5 bg-primary rounded-full"
+      href={`mailto:${email}`}>Get in Touch</a
+    >
+  </div>
+  <div
+    class="relative collapse md:visible bg-white max-w-[70%] md:max-w-[50%] aspect-[4/5] mx-auto p-4 w-64 h-80 flex-shrink-0 rotate-[3deg] md:rotate-[7deg]"
+  >
+    <Image
+      class="w-full h-auto object-cover"
+      width={50}
+      height={50}
+      src={image}
+      alt={name}
+    />
+  </div>
+</div>
