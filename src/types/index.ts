@@ -13,7 +13,7 @@ export interface SiteContent {
   experience: ExperienceProps[];
   projects: ProjectProps[];
   about: AboutProps;
-  blogs: BlogProps;
+  blogs: BlogProps[];
 }
 
 export interface HeroProps {
@@ -51,9 +51,9 @@ export interface HeaderProps {
 }
 
 export interface BlogProps {
-  name: string;
-  summary: string;
-  image: string;
+  name: any;
+  summary: any;
+  image: any;
   linkPreview?: string;
   linkSource?: string;
 }
