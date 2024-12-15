@@ -58,12 +58,13 @@ const { blog } = Astro.props;
                             </div>
                         </div>
                         <div class="flex items-end justify-end overflow-hidden">
+                            {/* @ts-ignore */}
                             <Image
                                 class="w-[95%] sm:w-full h-full sm:h-[85%] object-none object-left-top rounded-ss-xl rounded-ee-2xl"
                                 src={image}
                                 alt={name}
-                                width="736"
-                                height="483"
+                                width={736}
+                                height={483}
                             />
                         </div>
                     </div>
