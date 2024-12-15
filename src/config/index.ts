@@ -34,7 +34,7 @@ export const SITE_CONTENT: SiteContent = {
   },
   experience: [
     {
-      company: "=Exact",
+      company: "Exact",
       position: "Intern Front-end Developer",
       startDate: "2022",
       endDate: "2023",
