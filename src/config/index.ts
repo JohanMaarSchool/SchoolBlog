@@ -2,6 +2,7 @@ import type { SiteConfig, SiteContent } from "../types";
 import smallImage from "../smallJohan.jpeg";
 import johanPic from "../JohanMeerLinkedinFotoEdited.png"
 import randomImg from "../spotifu.png"
+import droneImg from "../dronev0.8.jpeg"
 
 export const SITE_CONFIG: SiteConfig = {
   title: "Johan Edward — Innovative Developer",
@@ -48,14 +49,14 @@ export const SITE_CONTENT: SiteContent = {
       summary: "A music streaming app that emulates Spotify's core features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: randomImg,
+      image: "https://images.pexels.com/photos/16023/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       name: "De Kleurentest van Caluwe",
       summary: "A music streaming app that emulates Spotify's core features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: randomImg,
+      image: "https://images.pexels.com/photos/1149019/pexels-photo-1149019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       name: "Persoonlijk Leiderschap",
@@ -78,7 +79,7 @@ export const SITE_CONTENT: SiteContent = {
       summary: "A music streaming app that emulates Spotify's core features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: randomImg,
+      image: droneImg,
     },
     {
       name: "Shopp App",

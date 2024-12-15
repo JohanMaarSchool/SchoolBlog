@@ -55,7 +55,7 @@ export interface HeaderProps {
 export interface BlogProps {
   name: any;
   summary: any;
-  image: ImageMetadata;
+  image: ImageMetadata | string;
   linkPreview?: string;
   linkSource?: string;
 }

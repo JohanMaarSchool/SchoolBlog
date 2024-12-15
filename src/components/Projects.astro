@@ -10,6 +10,32 @@ interface Props {
 const { projects } = Astro.props;
 ---
 
+<style>
+  @keyframes reveal {
+    from {
+      opacity: 0.1;
+      clip-path: inset(25% 20% 25% 20%);
+    }
+    to {
+      opacity: 1;
+      clip-path: inset(0% 0% 0% 0%);
+    }
+  }
+
+  .revealing-card {
+    /* Create View Timeline */
+    view-timeline-name: --revealing-card;
+    view-timeline-axis: block;
+
+    /* Attach animation, linked to the  View Timeline */
+    animation: linear reveal both;
+    animation-timeline: --revealing-card;
+
+    /* Tweak range when effect should run*/
+    animation-range: entry 10% cover 25%;
+  }
+</style>
+
 <Section text="Featured Projects" href="projects">
   {
     projects.map(({ name, summary, image, linkPreview, linkSource }, index) => {
@@ -17,9 +43,9 @@ const { projects } = Astro.props;
       return (
         <div
           style={`top: ${top}px;`}
-          class="sticky rounded-2xl border border-neutral/20 bg-black mb-12"
+          class="sticky rounded-2xl border border-neutral/20 bg-black mb-12 revealing-card"
         >
-          <div class="w-full h-[580px] md:h-96 relative z-[1] bg-[#1c232d]/85 bg-difu before:content-[''] before:rounded-2xl before:absolute before:z-[-1] before:opacity-[5%] before:inset-0 before:bg-[url(/raja.png)] before:bg-repeat before:bg-[length:128px] rounded-2xl grid grid-rows-2 sm:grid-rows-1 sm:grid-cols-2">
+          <div class="revealing-card w-full h-[580px] md:h-96 relative z-[1] bg-[#1c232d]/85 bg-difu before:content-[''] before:rounded-2xl before:absolute before:z-[-1] before:opacity-[5%] before:inset-0 before:bg-[url(/raja.png)] before:bg-repeat before:bg-[length:128px] rounded-2xl grid grid-rows-2 sm:grid-rows-1 sm:grid-cols-2">
             <div class="px-6 pt-12">
               <h3 class="text-3xl font-medium font-serif mb-5 text-primary">
                 {name}
