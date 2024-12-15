@@ -4,7 +4,7 @@ import johanPic from "../JohanMeerLinkedinFotoEdited.png"
 import randomImg from "../spotifu.png"
 import droneImg from "../dronev0.8.jpeg"
 import botImg from "../theFutureBot.jpeg"
-import sdcImg from "../ummSDC.jpg"
+
 
 export const SITE_CONFIG: SiteConfig = {
   title: "Johan Edward — Innovative Developer",
