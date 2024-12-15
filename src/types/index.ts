@@ -37,9 +37,10 @@ export interface ExperienceProps {
 export interface ProjectProps {
   name: string;
   summary: string;
-  image: ImageMetadata;
+  image: ImageMetadata | string;
   linkPreview?: string;
   linkSource?: string;
+  quote?: string;
 }
 
 export interface AboutProps {

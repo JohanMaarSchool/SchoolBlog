@@ -3,6 +3,8 @@ import smallImage from "../smallJohan.jpeg";
 import johanPic from "../JohanMeerLinkedinFotoEdited.png"
 import randomImg from "../spotifu.png"
 import droneImg from "../dronev0.8.jpeg"
+import botImg from "../theFutureBot.jpeg"
+import sdcImg from "../ummSDC.jpg"
 
 export const SITE_CONFIG: SiteConfig = {
   title: "Johan Edward — Innovative Developer",
@@ -52,45 +54,62 @@ export const SITE_CONTENT: SiteContent = {
       image: "https://images.pexels.com/photos/16023/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
-      name: "De Kleurentest van Caluwe",
+      name: "The colortest of Caluwe",
       summary: "A music streaming app that emulates Spotify's core features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: "https://images.pexels.com/photos/1149019/pexels-photo-1149019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image: "https://images.pexels.com/photos/163822/color-umbrella-red-yellow-163822.jpeg?auto=compress&cs=tinysrgb&w=700&h=750&dpr=1",
     },
     {
-      name: "Persoonlijk Leiderschap",
+      name: "Personal Leadership",
       summary: "A music streaming app that emulates Spotify's core features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: randomImg,
+      image: "https://images.pexels.com/photos/247522/pexels-photo-247522.jpeg?auto=compress&cs=tinysrgb&w=700&h=750&dpr=1",
     },
     {
       name: "Circle of Concern & Circle of Influence",
       summary: "A music streaming app that emulates Spotify's core features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
-      image: randomImg,
+      image: "https://images.pexels.com/photos/861464/pexels-photo-861464.jpeg?auto=compress&cs=tinysrgb&w=800&h=750&dpr=1",
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
+      name: "Drone Delivery Group",
+      quote: "\"It's a leap of fate. That's all it is. A leap of fate.\"",
+      summary: "But building an AI-drone that can deliver packages had some unexpected challenges!",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
       image: droneImg,
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
+      name: "ALERS ~ The Hague University of applied sciences",
+      quote: "\"Artificial intelligence is not just about efficiency gains, it’s about opening up new possibilities, unlocking human potential and solving some of society’s biggest challenges.\" ~ Yoshua Bengio",
+      summary: "",
+      linkPreview: "/",
+      linkSource: "https://github.com/immois/astro-zen",
+      image: botImg,
+    },
+    {
+      name: "Self Driving Challenge ~ RDW",
+      quote: "\"The only real mistake is the one from which we learn nothing.\"~ Henry Ford",
+      summary: "Everytime I think about this project, it gives me a headache.",
+      linkPreview: "/",
+      linkSource: "https://github.com/immois/astro-zen",
+      image: botImg,
+    },
+    {
+      name: "Voetbal IT ~ Blue Paper",
+      summary: "React Native is not React, but I enjoyed it!",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
       image: randomImg,
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
+      name: "FlightGate ~ Rotterdam The Hague Airport",
+      summary: "A journey between four different airports and a perspective to change the status quo.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
       image: randomImg,
