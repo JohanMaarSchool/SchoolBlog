@@ -13,7 +13,6 @@ De Big Five Persoonlijkheidstest kijkt naar vijf eigenschappen: Openheid voor er
   
 ## Wat zijn mijn test resultaten?
 
-![alt text](image.png)
 
 | **De Big Five-factoren** | **Percentiel (bereik)** | 
 |---------------------------|--------------------------|
@@ -22,6 +21,8 @@ De Big Five Persoonlijkheidstest kijkt naar vijf eigenschappen: Openheid voor er
 | **Extraversie**              | 42% (gemiddeld)  |
 | **Meegaandheid**             | 31% (gemiddeld)  |
 | **Natuurlijke reacties**     | 72% (hoog)       |
+
+
 
 ## Reflectie
 Ik herken me goed in de uitslag van de Big Five Persoonlijkheidstest, omdat de resultaten veel overeenkomen met hoe ik mezelf zie. Op het gebied van gewetensvolheid scoor ik laag, en dat klopt, want ik houd niet van strakke planningen en werk liever spontaan. Bij openheid voor ervaringen scoor ik gemiddeld, wat past bij mijn persoonlijkheid: ik houd van avontuur en probeer graag nieuwe dingen, maar ik kan ook waarde hechten aan tradities en vertrouwde routines. Mijn gemiddelde score op extraversie klopt ook, want ik ben niet altijd het middelpunt van de aandacht, maar ik vind sociale activiteiten wel leuk, zolang ze niet te intens zijn. Wat ik echt zou willen verbeteren, is mijn score op natuurlijke reacties; ik merk dat ik soms sterk reageer op stress en wil hier beter mee leren omgaan om meer rust in mijn leven te vinden.
