@@ -8,19 +8,25 @@ layout: ../../layouts/blogLayout.astro
 ---
 
 ## Wat is persoonlijk leiderschap?
+
 Persoonlijk leiderschap is het vermogen om jezelf bewust te sturen en verantwoordelijkheid te nemen voor je eigen keuzes en gedrag. Het gaat om zelfreflectie, het kennen van je waarden en doelen, en het nemen van acties die daarmee in lijn liggen. Je leert hierbij om je eigen krachten en beperkingen te erkennen en effectief om te gaan met uitdagingen. Persoonlijk leiderschap betekent ook dat je invloed uitoefent op je eigen leven in plaats van je te laten leiden door externe omstandigheden. Het helpt je groeien als persoon en professioneel, en inspireert anderen vaak om hetzelfde te doen.
 
 ## Les 3: Opdrachten Persoonlijk Leiderschap
+
 ---
+
 ## Opdracht 1: Reactief naar proactief gedrag
 
 ### Reactief: Ik krijg geen goede feedback
+
 **Proactief:** Ik ga een gesprek aan met mijn stagebegeleider of stagementor om te bespreken hoe ik meer goede feedback kan krijgen.
 
 ### Reactief: Het lukt niet om een fasegesprek in te plannen
+
 **Proactief:** Ik ga een mail sturen aan alle stakeholders om zo snel een fasegesprek in te plannen.
 
 ### Reactief: Mijn begeleider reageert niet op mijn e-mail  
+
 **Proactief:** Als ik mijn begeleider niet kan bereiken, dan vraag ik aan mijn manager wat mijn opties zijn.
 
 ---
@@ -42,7 +48,6 @@ Ik zou graag willen horen dat ik iemand ben die proactief is en niet bang is voo
 |--------------------|---------------------------|-----------------------------------------------|
 | **Belangrijk**     | School, eten, drinken, werken | Sporten, praten met familie en vrienden, mediteren, boulderen, verenigingszaken, lezen|  
 | **Niet belangrijk**| Wiskunde B leren, Engels leren | Gamen, reizen                       |
-
 
 ---
 
