@@ -8,21 +8,9 @@ image:
 layout: ../../layouts/blogLayout.astro
 ---
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
-At the command prompt, type `nano`.
-<br />
-<br />
-## What I've accomplished
-#br  
 
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
+## ALERS, Zoetermeer - Haagse Hogeschool  
 
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
+Tijdens mijn werk aan het ALERS-project heb ik een dashboard ontwikkeld met HTMX. Dit dashboard is ontworpen voor leraren om de voortgang van leerlingen in een AI-bijlesomgeving te volgen. Het project combineerde zowel technische als onderzoeksvaardigheden. Ik heb wetenschappelijk onderzoek uitgevoerd naar de beste indicatoren en grafieken om dit doel te bereiken, en tegelijkertijd onderzocht ik de technische en financiele haalbaarheid van de ChatGPT-4.0-API.  
 
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
-
-## What's next
-
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
-
-![hey](https://images.pexels.com/photos/16023/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+Dit project bood een unieke kans om zowel mijn technische vaardigheden als mijn analytisch vermogen te versterken, terwijl ik werkte aan een innovatieve oplossing in het onderwijs.

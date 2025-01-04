@@ -9,22 +9,6 @@ image:
 tags: ["astro", "blogging", "learning in public"]
 layout: ../../layouts/blogLayout.astro
 ---
-
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
-At the command prompt, type `nano`.
-<br />
-<br />
-## What I've accomplished
-#br  
-
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
-
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
-
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
-
-## What's next
-
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
-
-![hey](https://images.pexels.com/photos/16023/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+## The Drone Delivery Group ~ De Haagse Hogeschool
+Bij de Haagse Hogeschool werk ik samen met een medestudent aan een innovatief studenteninitiatief: een drone die zelfstandig pakketten kan bezorgen. Dit project combineert technologie, creativiteit en teamwork om een praktische oplossing te ontwikkelen voor pakketbezorging via drones. Mijn rol in dit project is veelzijdig. Ik programmeer en ontwikkel protocollen om de drone te besturen via een dashboard en bouw Python REST APIs om de communicatie tussen het dashboard en de drone mogelijk te maken. Daarnaast werk ik mee aan de front-end ontwikkeling van het dashboard om het gebruiksvriendelijk te maken en ontwerp ik onderdelen voor de drone die vervolgens met een 3D-printer worden geproduceerd.  
+Het project wordt uitgevoerd in een Scrumteam van zes personen. Deze werkwijze vraagt om nauwe samenwerking, duidelijke communicatie en een gestructureerde planning. Dit project heeft mijn technische vaardigheden verdiept en mijn vermogen om effectief in een team te werken versterkt.
