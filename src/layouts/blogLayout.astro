@@ -92,7 +92,7 @@ const ogImgUrl = canonicalURL + socialImage;
         }
 
         .test {
-            padding-top: 110vh;
+            padding-top: 100vh;
         }
     }
 
@@ -124,11 +124,11 @@ const ogImgUrl = canonicalURL + socialImage;
     </h3>
 </div>
 <Header siteLogo={siteLogo} navLinks={navLinks} />
-<div class="font-sans bg-black text-white w-auto text-base test">
+<div class="font-sans bg-black text-white w-auto test">
     <div id="auto-scroll-position"></div>
-    <main class="max-w-5xl px-2 mx-auto font-sans">
-        <slot />
-        <slot />
+    <main
+        class="max-w-5xl px-2 mx-auto font-sans prose text-white prose-lg prose-strong:text-white prose-h2:text-white"
+    >
         <slot />
     </main>
     <Footer author={author} socialLinks={socialLinks} />

@@ -1,30 +1,28 @@
 ---
 title: 'De kleurentest van Caluwe'
-pubDate: 2022-07-01
 description: 'This is the first post of my new Astro blog.'
 author: 'Astro Learner'
 image:
     url: 'https://images.pexels.com/photos/752484/pexels-photo-752484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    alt: 'The Astro logo on a dark background with a pink glow.'
-tags: ["astro", "blogging", "learning in public"]
 layout: ../../layouts/blogLayout.astro
 ---
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
-At the command prompt, type `nano`.
-<br />
-<br />
-## What I've accomplished
-#br  
+## Wat is de Big 5 Persoonlijkheidstest?
+De Big Five Persoonlijkheidstest kijkt naar vijf eigenschappen: Openheid voor ervaringen, Gewetensvolheid, Extraversie, Meegaandheid en Natuurlijke reacties. Het laat zien hoe je denkt, voelt en je gedraagt in verschillende situaties, bijvoorbeeld hoe stressbestendig of creatief je bent. De test wordt vaak gebruikt om jezelf beter te begrijpen en te ontdekken wat bij je past, zoals in je studie of werk.
+  
+## Wat zijn mijn test resultaten?
 
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
+![alt text](image.png)
 
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
+| **De Big Five-factoren** | **Percentiel (bereik)** | 
+|---------------------------|--------------------------|
+| **Openheid voor ervaringen** | 63% (gemiddeld) |
+| **Gewetensvolheid**          | 8% (laag)        |
+| **Extraversie**              | 42% (gemiddeld)  |
+| **Meegaandheid**             | 31% (gemiddeld)  |
+| **Natuurlijke reacties**     | 72% (hoog)       |
 
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
-
-## What's next
-
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+## Reflectie
+Ik herken me goed in de uitslag van de Big Five Persoonlijkheidstest, omdat de resultaten veel overeenkomen met hoe ik mezelf zie. Op het gebied van gewetensvolheid scoor ik laag, en dat klopt, want ik houd niet van strakke planningen en werk liever spontaan. Bij openheid voor ervaringen scoor ik gemiddeld, wat past bij mijn persoonlijkheid: ik houd van avontuur en probeer graag nieuwe dingen, maar ik kan ook waarde hechten aan tradities en vertrouwde routines. Mijn gemiddelde score op extraversie klopt ook, want ik ben niet altijd het middelpunt van de aandacht, maar ik vind sociale activiteiten wel leuk, zolang ze niet te intens zijn. Wat ik echt zou willen verbeteren, is mijn score op natuurlijke reacties; ik merk dat ik soms sterk reageer op stress en wil hier beter mee leren omgaan om meer rust in mijn leven te vinden.
 
 ![hey](https://images.pexels.com/photos/16023/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
