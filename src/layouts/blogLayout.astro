@@ -1,0 +1,99 @@
+---
+const { frontmatter } = Astro.props;
+
+import { ClientRouter } from "astro:transitions";
+import Header from "@components/Header.astro";
+import "@fontsource/be-vietnam-pro";
+import "@fontsource-variable/gabarito";
+import { SITE_CONFIG } from "@config";
+import Footer from "@components/Footer.astro";
+
+const {
+    title,
+    description,
+    siteLogo,
+    navLinks,
+    lang,
+    author,
+    socialLinks,
+    socialImage,
+    canonicalURL = new URL(Astro.url.pathname, Astro.site).href,
+} = SITE_CONFIG;
+
+const ogImgUrl = canonicalURL + socialImage;
+let pic = frontmatter.image.url;
+console.log(pic);
+---
+
+<style>
+    @supports (animation-range: 0vh 90vh) {
+        @keyframes sticky-parallax-header-move-and-size {
+            from {
+                background-position: 100% 50;
+                height: 90vh;
+                align-items: end;
+            }
+            to {
+                background-position: 20% 0;
+                opacity: 1;
+                height: 17vh;
+                font-size: 2em;
+                align-items: end;
+                padding-bottom: 0.8rem;
+            }
+        }
+
+        .sticky-parallax-header {
+            position: fixed;
+            top: 0;
+            background-blend-mode: soft-light;
+            animation: sticky-parallax-header-move-and-size linear forwards;
+            animation-timeline: scroll();
+            animation-range: 0vh 90vh;
+            opacity: 1;
+            background-blend-mode: soft-light;
+            background-size: cover;
+            display: grid;
+            text-align: end;
+            align-items: end;
+            font-size: calc(4vw + 1em);
+        }
+
+        .test {
+            padding-top: 110vh;
+        }
+    }
+
+    .sticky-parallax-header {
+        height: 90vh;
+        width: 100%;
+        background-size: cover;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        font-size: calc(4vw + 1em);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+<div
+    class="w-full h-screen sticky-parallax-header"
+    style={`background-image: url(${frontmatter.image.url});`}
+>
+    <h3 class="text-white">{frontmatter.title}</h3>
+</div>
+<Header siteLogo={siteLogo} navLinks={navLinks} />
+
+<div class="font-sans bg-black text-white w-auto text-base test">
+    <main class="max-w-5xl px-2 mx-auto font-sans">
+        <slot />
+        <slot />
+        <slot />
+        <slot />
+        <slot />
+        <slot />
+    </main>
+    <Footer author={author} socialLinks={socialLinks} />
+</div>

@@ -9,17 +9,24 @@ const { siteLogo, navLinks } = Astro.props;
 ---
 
 <header
-  class="max-w-5xl mx-auto flex justify-between px-5 py-6 top-0 z-50 sticky bg-black animate-slideIn"
+  class="mx-auto flex justify-between px-5 py-6 top-0 z-50 sticky bg-black animate-slideIn"
 >
-  <a href="/" aria-label="Home link">
-    <Image
-      class="rounded-full"
-      src={siteLogo}
-      width="45"
-      height="45"
-      alt="website logo"
-    />
-  </a>
+  <div class="flex flex-row justify_center">
+    <a
+      href="/SchoolBlog"
+      aria-label="Home link"
+      class="flex flex-row justify_center"
+    >
+      <Image
+        class="rounded-full"
+        src={siteLogo}
+        width="50"
+        height="30"
+        alt="website logo"
+      />
+      <p class="text-white px-5 py-2 text-xl">Johan Edward</p>
+    </a>
+  </div>
 
   <button
     type="button"

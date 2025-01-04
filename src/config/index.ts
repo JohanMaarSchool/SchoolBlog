@@ -14,14 +14,14 @@ export const SITE_CONFIG: SiteConfig = {
   lang: "en",
   siteLogo: smallImage,
   navLinks: [
-    { text: "Experience", href: "#experience" },
+    { text: "Blog", href: "#Blog" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/johan-edward/" },
+    { text: "Github", href: "https://github.com/JohanMaarSchool" },
+    { text: "Youtube", href: "https://www.youtube.com/@johanmaarschool7165" },
   ],
   socialImage: johanPic,
 };
@@ -81,7 +81,7 @@ export const SITE_CONTENT: SiteContent = {
       quote: "\"It's a leap of fate. That's all it is. A leap of fate.\"",
       summary: "But building an AI-drone that can deliver packages had some unexpected challenges!",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
+      linkSource: "/SchoolBlog/posts/DroneDeliveryGroup",
       image: droneImg,
     },
     {
