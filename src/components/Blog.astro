@@ -24,7 +24,7 @@ const { blog } = Astro.props;
 
 <Section text="Blog" href="Blog">
     {
-        blog.map(({ name, summary, image, linkPreview, linkSource }, index) => {
+        blog.map(({ name, summary, image, linkSource }, index) => {
             const top = 98 + index * 40;
             return (
                 <div

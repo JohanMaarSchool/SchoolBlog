@@ -35,47 +35,43 @@ const { projects } = Astro.props;
 
 <Section text="Featured Projects" href="projects">
   {
-    projects.map(
-      ({ name, summary, image, linkPreview, linkSource, quote }, index) => {
-        const top = 98 + index * 40;
-        return (
-          <div
-            style={`top: ${top}px;`}
-            class="sticky rounded-2xl border border-neutral/20 bg-black mb-12 revealing-card"
-          >
-            <div class="revealing-card w-full h-[580px] md:h-96 relative z-[1] bg-[#1c232d]/85 bg-difu before:content-[''] before:rounded-2xl before:absolute before:z-[-1] before:opacity-[5%] before:inset-0 before:bg-[url(/raja.png)] before:bg-repeat before:bg-[length:128px] rounded-2xl grid grid-rows-2 sm:grid-rows-1 sm:grid-cols-2">
-              <div class="px-6 pt-12">
-                <h3 class="text-3xl font-medium font-serif mb-5 text-primary">
-                  {name}
-                </h3>
-                <p class="text-neutral italic text-base text-balance">
-                  {quote}
-                </p>
-                <p class="text-neutral text-base text-balance">{summary}</p>
-                <div class="pt-10 flex gap-5 text-white">
-                  <a
-                    href={linkSource}
-                    target="_blank"
-                    class="text-sm py-4 px-5 text-[#fff] inline-block font-medium bg-primary rounded-full"
-                  >
-                    Learn more
-                  </a>
-                </div>
-              </div>
-              <div class="flex items-end justify-end overflow-hidden">
-                {/* @ts-ignore */}
-                <Image
-                  class="w-[95%] sm:w-full h-full sm:h-[85%] object-none object-center rounded-ss-xl rounded-ee-2xl"
-                  src={image}
-                  alt={name}
-                  width="736"
-                  height="483"
-                />
+    projects.map(({ name, summary, image, linkSource, quote }, index) => {
+      const top = 98 + index * 40;
+      return (
+        <div
+          style={`top: ${top}px;`}
+          class="sticky rounded-2xl border border-neutral/20 bg-black mb-12 revealing-card"
+        >
+          <div class="revealing-card w-full h-[580px] md:h-96 relative z-[1] bg-[#1c232d]/85 bg-difu before:content-[''] before:rounded-2xl before:absolute before:z-[-1] before:opacity-[5%] before:inset-0 before:bg-[url(/raja.png)] before:bg-repeat before:bg-[length:128px] rounded-2xl grid grid-rows-2 sm:grid-rows-1 sm:grid-cols-2">
+            <div class="px-6 pt-12">
+              <h3 class="text-3xl font-medium font-serif mb-5 text-primary">
+                {name}
+              </h3>
+              <p class="text-neutral italic text-base text-balance">{quote}</p>
+              <p class="text-neutral text-base text-balance">{summary}</p>
+              <div class="pt-10 flex gap-5 text-white">
+                <a
+                  href={linkSource}
+                  target="_blank"
+                  class="text-sm py-4 px-5 text-[#fff] inline-block font-medium bg-primary rounded-full"
+                >
+                  Learn more
+                </a>
               </div>
             </div>
+            <div class="flex items-end justify-end overflow-hidden">
+              {/* @ts-ignore */}
+              <Image
+                class="w-[95%] sm:w-full h-full sm:h-[85%] object-none object-center rounded-ss-xl rounded-ee-2xl"
+                src={image}
+                alt={name}
+                width="736"
+                height="483"
+              />
+            </div>
           </div>
-        );
-      },
-    )
+        </div>
+      );
+    })
   }
 </Section>

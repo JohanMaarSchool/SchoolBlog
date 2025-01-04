@@ -1,7 +1,6 @@
 ---
 const { frontmatter } = Astro.props;
 
-import { ClientRouter } from "astro:transitions";
 import Header from "@components/Header.astro";
 import "@fontsource/be-vietnam-pro";
 import "@fontsource-variable/gabarito";
@@ -9,11 +8,8 @@ import { SITE_CONFIG } from "@config";
 import Footer from "@components/Footer.astro";
 
 const {
-    title,
-    description,
     siteLogo,
     navLinks,
-    lang,
     author,
     socialLinks,
     socialImage,

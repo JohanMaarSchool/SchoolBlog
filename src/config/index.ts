@@ -1,7 +1,6 @@
 import type { SiteConfig, SiteContent } from "../types";
 import smallImage from "../smallJohan.jpeg";
 import johanPic from "../JohanMeerLinkedinFotoEdited.png"
-import randomImg from "../spotifu.png"
 import droneImg from "../dronev0.8.jpeg"
 import botImg from "../theFutureBot.jpeg"
 
