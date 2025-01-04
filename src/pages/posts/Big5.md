@@ -10,12 +10,15 @@ tags: ["astro", "blogging", "learning in public"]
 layout: ../../layouts/blogLayout.astro
 ---
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
-At the command prompt, type `nano`.
-<br />
-<br />
-## What I've accomplished
-#br  
+| **De Big Five-factoren** | **Percentiel (bereik)** | 
+|---------------------------|--------------------------|
+| **Openheid voor ervaringen** | 63% (gemiddeld) |
+| **Gewetensvolheid**          | 8% (laag)        |
+| **Extraversie**              | 42% (gemiddeld)  |
+| **Meegaandheid**             | 31% (gemiddeld)  |
+| **Natuurlijke reacties**     | 72% (hoog)       |
+
+
 
 1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
 
