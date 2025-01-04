@@ -21,9 +21,39 @@ const {
 } = SITE_CONFIG;
 
 const ogImgUrl = canonicalURL + socialImage;
-let pic = frontmatter.image.url;
-console.log(pic);
 ---
+
+<script>
+    import TypeIt from "typeit";
+
+    new TypeIt("#name-title", {
+        speed: 100,
+        loop: false,
+        afterComplete: function (instance: any) {
+            instance.destroy();
+            let scrollTimeout = setTimeout(() => {
+                const mainDiv = document.querySelector("#auto-scroll-position");
+                if (mainDiv) {
+                    mainDiv.scrollIntoView({ behavior: "smooth" });
+                }
+            }, 500);
+
+            const cancelScrollTimeout = () => {
+                if (scrollTimeout) {
+                    clearTimeout(scrollTimeout);
+                    scrollTimeout = 0;
+                }
+            };
+
+            window.addEventListener("scroll", cancelScrollTimeout, {
+                once: true,
+            });
+            window.addEventListener("keydown", cancelScrollTimeout, {
+                once: true,
+            });
+        },
+    }).go();
+</script>
 
 <style>
     @supports (animation-range: 0vh 90vh) {
@@ -32,6 +62,7 @@ console.log(pic);
                 background-position: 100% 50;
                 height: 90vh;
                 align-items: end;
+                color: aliceblue;
             }
             to {
                 background-position: 20% 0;
@@ -40,6 +71,7 @@ console.log(pic);
                 font-size: 2em;
                 align-items: end;
                 padding-bottom: 0.8rem;
+                color: aliceblue;
             }
         }
 
@@ -76,21 +108,25 @@ console.log(pic);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        color: aliceblue;
+    }
+
+    #auto-scroll-position {
+        scroll-margin-top: 20rem;
     }
 </style>
 <div
     class="w-full h-screen sticky-parallax-header"
     style={`background-image: url(${frontmatter.image.url});`}
 >
-    <h3 class="text-white">{frontmatter.title}</h3>
+    <h3 id="name-title" class="text-pretty">
+        {frontmatter.title}
+    </h3>
 </div>
 <Header siteLogo={siteLogo} navLinks={navLinks} />
-
 <div class="font-sans bg-black text-white w-auto text-base test">
+    <div id="auto-scroll-position"></div>
     <main class="max-w-5xl px-2 mx-auto font-sans">
-        <slot />
-        <slot />
-        <slot />
         <slot />
         <slot />
         <slot />

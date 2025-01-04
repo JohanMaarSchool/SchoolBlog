@@ -1,12 +1,10 @@
 ---
-title: 'The Drone Delivery Group'
-pubDate: 2022-07-01
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
+title: 'Self Driving Challenge ~ RDW'
+description: '"The only real mistake is the one from which we learn nothing."~ Henry Ford Everytime I think about this project, it gives me a headache.'
+author: 'Johan Edward'
 image:
     url: 'https://images.unsplash.com/photo-1473186639016-1451879a06f0?q=80&w=2005&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     alt: 'The Astro logo on a dark background with a pink glow.'
-tags: ["astro", "blogging", "learning in public"]
 layout: ../../layouts/blogLayout.astro
 ---
 
