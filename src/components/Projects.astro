@@ -23,16 +23,13 @@ const { projects } = Astro.props;
   }
 
   .revealing-card {
-    /* Create View Timeline */
     view-timeline-name: --revealing-card;
     view-timeline-axis: block;
 
-    /* Attach animation, linked to the  View Timeline */
     animation: linear reveal both;
     animation-timeline: --revealing-card;
 
-    /* Tweak range when effect should run*/
-    animation-range: entry 10% cover 25%;
+    animation-range: entry 8% cover 15%;
   }
 </style>
 
@@ -68,7 +65,7 @@ const { projects } = Astro.props;
               <div class="flex items-end justify-end overflow-hidden">
                 {/* @ts-ignore */}
                 <Image
-                  class="w-[95%] sm:w-full h-full sm:h-[85%] object-none object-left-top rounded-ss-xl rounded-ee-2xl"
+                  class="w-[95%] sm:w-full h-full sm:h-[85%] object-none object-center rounded-ss-xl rounded-ee-2xl"
                   src={image}
                   alt={name}
                   width="736"

@@ -3,7 +3,7 @@ title: 'Self Driving Challenge ~ RDW'
 description: '"The only real mistake is the one from which we learn nothing."~ Henry Ford Everytime I think about this project, it gives me a headache.'
 author: 'Johan Edward'
 image:
-    url: 'https://images.unsplash.com/photo-1473186639016-1451879a06f0?q=80&w=2005&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    url: 'https://www.selfdrivingchallenge.nl/uploads/overview-1024/32da6685-5f23-5434-90ad-b91bc015f6f6/3439047436/Afbeelding1.jpg'
     alt: 'The Astro logo on a dark background with a pink glow.'
 layout: ../../layouts/blogLayout.astro
 ---
