@@ -29,7 +29,7 @@ export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Johan Edward",
     specialty: "Innovative developer",
-    summary: "Creativity requires the courage to let go of certainties. I will help you to innovate. To dream forward.",
+    summary: "Creativiteit vereist de moed om onzekerheden los te laten. Ik help je om te innoveren. Om vooruit te dromen.",
     email: "20149751@student.hhs.nl",
     image: johanPic,
   },
@@ -45,36 +45,45 @@ export const SITE_CONTENT: SiteContent = {
     },
   ],
   blogs: [
+
     {
-      name: "Big Five Personality",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkSource: "/SchoolBlog/posts/Big5",
-      image: "https://images.pexels.com/photos/16023/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Big Five Persoonlijkheid",
+      "summary": "Ik bespreek mijn resultaten van de Big Five test en reflecteer op wat ik over mezelf heb geleerd.",
+      "linkSource": "/SchoolBlog/posts/Big5",
+      "image": "https://images.pexels.com/photos/16023/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
-      name: "The colortest of Caluwe",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkSource: "/SchoolBlog/posts/Caluwe",
-      image: "https://images.pexels.com/photos/163822/color-umbrella-red-yellow-163822.jpeg?auto=compress&cs=tinysrgb&w=700&h=750&dpr=1",
+      "name": "De Kleuren van Caluwé",
+      "summary": "Hier reflecteer ik op mijn voorkeursstijl in verandering en wat de kleuren van Caluwé daarover zeggen.",
+      "linkSource": "/SchoolBlog/posts/Caluwe",
+      "image": "https://images.pexels.com/photos/752484/pexels-photo-752484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
-      name: "Personal Leadership",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkSource: "/SchoolBlog/posts/Leadership",
-      image: "https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "name": "Persoonlijk Leiderschap",
+      "summary": "In dit artikel deel ik mijn reflectie op hoe ik mijn persoonlijke leiderschap verder kan ontwikkelen.",
+      "linkSource": "/SchoolBlog/posts/Leadership",
+      "image": "https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
-      name: "Circle of Concern & Circle of Influence",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkSource: "/SchoolBlog/posts/Circles",
-      image: "https://images.pexels.com/photos/861464/pexels-photo-861464.jpeg?auto=compress&cs=tinysrgb&w=800&h=750&dpr=1",
+      "name": "Cirkel van Betrokkenheid & Invloed",
+      "summary": "Ik bespreek mijn reflectie op waar ik me druk om maak en waar ik echt invloed op kan hebben.",
+      "linkSource": "/SchoolBlog/posts/Circles",
+      "image": "https://images.pexels.com/photos/861464/pexels-photo-861464.jpeg?auto=compress&cs=tinysrgb&w=800&h=750&dpr=1"
     },
+    {
+      "name": "Waar wil ik werken?",
+      "summary": "Ik reflecteer op mijn ideale werkplek en hoe mijn voorkeuren en waarden hierin een rol spelen.",
+      "linkSource": "/SchoolBlog/posts/Circles",
+      "image": "https://images.pexels.com/photos/861464/pexels-photo-861464.jpeg?auto=compress&cs=tinysrgb&w=800&h=750&dpr=1"
+    }
+
+
   ],
   projects: [
     {
       name: "Drone Delivery Group",
       quote: "\"It's a leap of fate. That's all it is. A leap of fate.\"",
-      summary: "But building an AI-drone that can deliver packages had some unexpected challenges!",
+      summary: "Het bouwen van een AI-drone die pakketjes kan bezorgen bracht onverwachte uitdagingen met zich mee!",
       linkSource: "/SchoolBlog/posts/DroneDeliveryGroup",
       image: droneImg,
     },
@@ -88,19 +97,19 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "Self Driving Challenge ~ RDW",
       quote: "\"The only real mistake is the one from which we learn nothing.\"~ Henry Ford",
-      summary: "Everytime I think about this project, it gives me a headache.",
+      summary: "Elke keer dat ik aan dit project denk, krijg ik hoofdpijn.",
       linkSource: "/SchoolBlog/posts/SDC",
       image: "https://www.selfdrivingchallenge.nl/uploads/overview-1024/32da6685-5f23-5434-90ad-b91bc015f6f6/3439047436/Afbeelding1.jpg",
     },
     {
       name: "Voetbal IT ~ Blue Paper",
-      summary: "React Native is not React, but I enjoyed it!",
+      summary: "React Native is niet React, maar ik heb er echt van genoten!",
       linkSource: "/SchoolBlog/posts/VoetbalIT",
       image: "https://images.pexels.com/photos/47730/the-ball-stadion-football-the-pitch-47730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       name: "FlightGate ~ Rotterdam The Hague Airport",
-      summary: "A journey between four different airports and a perspective to change the status quo.",
+      summary: "Een innovatieve project waar we de luchthavenervaring willen transformeren.",
       linkSource: "/SchoolBlog/posts/Flightgate",
       image: "https://live.staticflickr.com/8531/8629107032_a8d95d9850_b.jpg",
     },
