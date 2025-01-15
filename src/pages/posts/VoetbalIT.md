@@ -10,3 +10,5 @@ layout: ../../layouts/blogLayout.astro
 ## Voetbal IT, Zoetermeer - Blue Paper  
 
 Ik heb een app ontwikkeld met React Native en Expo om interne en externe communicatieproblemen bij voetbalclubs op te lossen. Samen met een stakeholder werkte ik aan een oplossing waarbij design thinking centraal stond. Het project werd uitgevoerd in een Scrumteam van vijf personen, waarbij nauwe samenwerking en iteratieve ontwikkeling essentieel waren. Deze ervaring heeft mijn vaardigheden in app-ontwikkeling, probleemoplossing en teamwork verder versterkt.
+
+Vaardigheden: React Native - Scrum - Material-UI - Design thinking

@@ -10,3 +10,5 @@ layout: ../../layouts/blogLayout.astro
 
 Bij de Haagse Hogeschool werk ik samen met een medestudent aan een innovatief studenteninitiatief: een drone die zelfstandig pakketten kan bezorgen. Dit project combineert technologie, creativiteit en teamwork om een praktische oplossing te ontwikkelen voor pakketbezorging via drones. Mijn rol in dit project is veelzijdig. Ik programmeer en ontwikkel protocollen om de drone te besturen via een dashboard en bouw Python REST APIs om de communicatie tussen het dashboard en de drone mogelijk te maken. Daarnaast werk ik mee aan de front-end ontwikkeling van het dashboard om het gebruiksvriendelijk te maken en ontwerp ik onderdelen voor de drone die vervolgens met een 3D-printer worden geproduceerd.  
 Het project wordt uitgevoerd in een Scrumteam van zes personen. Deze werkwijze vraagt om nauwe samenwerking, duidelijke communicatie en een gestructureerde planning. Dit project heeft mijn technische vaardigheden verdiept en mijn vermogen om effectief in een team te werken versterkt.
+
+Vaardigheden: REST-APIs, Python, Front-end ontwikkeling, Universal asynchronous receiver/transmitter (UART), Drones

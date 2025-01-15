@@ -14,3 +14,5 @@ layout: ../../layouts/blogLayout.astro
 Tijdens mijn werk aan het ALERS-project heb ik een dashboard ontwikkeld met HTMX. Dit dashboard is ontworpen voor leraren om de voortgang van leerlingen in een AI-bijlesomgeving te volgen. Het project combineerde zowel technische als onderzoeksvaardigheden. Ik heb wetenschappelijk onderzoek uitgevoerd naar de beste indicatoren en grafieken om dit doel te bereiken, en tegelijkertijd onderzocht ik de technische en financiele haalbaarheid van de ChatGPT-4.0-API.  
 
 Dit project bood een unieke kans om zowel mijn technische vaardigheden als mijn analytisch vermogen te versterken, terwijl ik werkte aan een innovatieve oplossing in het onderwijs.
+
+Vaardigheden: HTMX, FastAPI, Python, Deskresearch, Research writing, statestieken

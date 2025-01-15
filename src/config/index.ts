@@ -40,7 +40,7 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "2022",
       endDate: "2023",
       summary: [
-        "Research & development of a custom React UI-library, and implementing it in an Angular application,",
+        "Onderzoeken en ontwikkelen van een  custom React UI-library, en het implementeren in een Angular aplicatie.",
       ],
     },
   ],
@@ -73,8 +73,8 @@ export const SITE_CONTENT: SiteContent = {
     {
       "name": "Waar wil ik werken?",
       "summary": "Ik reflecteer op mijn ideale werkplek en hoe mijn voorkeuren en waarden hierin een rol spelen.",
-      "linkSource": "/SchoolBlog/posts/Circles",
-      "image": "https://images.pexels.com/photos/861464/pexels-photo-861464.jpeg?auto=compress&cs=tinysrgb&w=800&h=750&dpr=1"
+      "linkSource": "/SchoolBlog/posts/werken",
+      "image": "https://images.pexels.com/photos/30053310/pexels-photo-30053310/free-photo-of-modern-concrete-structure-against-clear-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
 
 
@@ -116,11 +116,11 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-Hello there! My name is Johan. A driven and innovative developer with a proven track record of developing projects within scrum teams. 
-Specializing in problem-solving with JavaScript, Python and developing user-friendly front-end solutions. 
-During my study, there is a strong emphasis on collaboration with teammates, stakeholders and clients. 
-Because only together can we build products that add real value and help others move forward!
-
+Mijn naam is Johan, ik ben 22 jaar en studeer HBO-ICT in de Haagse Hogeschool. Daar heb je verschillende diffrentiaties zoals software engenering of network systems and enginering.
+Ik doe de track Innovative development. Dat is een pad waar je geen klassieke toetsen of lessen krijg, maar daar leer in op basis van projecten.
+Deze projecten doe ik met echte stakeholders en echte problemen.
+Zo heb ik een slimme poort ontwikkeld voor Rotterdam The Hague Airport, heb ik een app gemaakt voor een voetbalclub, deed ik mee met de self driving challenge van de RDW en programmeer ik nu een drone dat pakketten kan bezorgen.
+Dit doe ik met mijn vaardigheden in Python en javascript. Tijdens mijn studie wordt veel waarde gehecht aan samenwerken met je teamleden of stakeholders. Want alleen samen kan je de beste oplossingen bedenken!
 
     `,
     image: johanPic,
