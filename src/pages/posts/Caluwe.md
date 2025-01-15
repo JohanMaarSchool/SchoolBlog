@@ -9,7 +9,7 @@ layout: ../../layouts/blogLayout.astro
 
 ## Wat is de kleurentest van Caluwe?
 
-De kleurentest van Caluwé onderscheidt vijf stijlen van verandering, weergegeven in kleuren. Geel draait om macht en belangen, blauw om structuur en controle, rood focust op motivatie en mensen, groen op leren en samenwerken, en wit op zelforganisatie en natuurlijke processen. Het model helpt inzicht te krijgen in hoe mensen en teams omgaan met veranderingen en hoe verschillende stijlen elkaar kunnen aanvullen.
+De kleurentest van Caluwe onderscheidt vijf stijlen van verandering, weergegeven in kleuren. Geel draait om macht en belangen, blauw om structuur en controle, rood focust op motivatie en mensen, groen op leren en samenwerken, en wit op zelforganisatie en natuurlijke processen. Het model helpt inzicht te krijgen in hoe mensen en teams omgaan met veranderingen en hoe verschillende stijlen elkaar kunnen aanvullen.
   
 ## Wat zijn mijn test resultaten?
 
